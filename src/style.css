@@ -24,3 +24,10 @@ h1 {
   letter-spacing: 2px;
   opacity: 0.5;
 }
+
+img {
+  transition: transform 0.9s ease-in-out;
+}
+img:hover {
+  transform: rotate(360deg);
+}
